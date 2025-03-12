@@ -72,7 +72,7 @@ html{
     justify-content: center;
 }
 .header-desing .container{
-    width: 1349px;
+    width: 1200px;
     display: flex;
     gap: 35px;
     justify-content: space-between;
@@ -90,9 +90,9 @@ html{
     color: #645C55;
 }
 .header-desing .container .content h1{
-    font-size: 56px;
+    font-size: 54px;
     font-weight: 400;
-    line-height: 66px;
+    line-height: 64px;
     color: #1B1A1A;
     margin-top: 20px;
 }
@@ -120,8 +120,8 @@ html{
     background-color: #fff;
 }
 .header-desing .container .wrap-img .img{
-    width: 620px;
-    height: 565px;
+    width: 590px;
+    height: 535px;
     overflow: hidden;
 }
 .header-desing .container .wrap-img img{
@@ -270,4 +270,130 @@ html{
 .blok2-section .container2 img{
     width: 100%;
     height: 500px;
+}
+/* blok3-section */
+.blok3-section{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.blok3-wrap{
+    width: 1200px;
+    display: flex;
+    justify-content: center;
+    background-color: #FFFFFF;
+    padding: 70px 0;
+}
+.blok3-section .container{
+    width: 100%;
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+}
+.blok3-section .container .content-text{
+    width: 370px;
+}
+.blok3-section .container .content-text h2{
+    font-size: 32px;
+    font-weight: 400;
+    line-height: 38px;
+    color: #403E3B;
+}
+.blok3-section .container .content-text p{
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 24px;
+    color: #645C55;
+    margin-top: 12px;
+}
+.blok3-section .container .content-text .btn{
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 24px;
+    color: #1B1A1A;
+    margin-top: 30px;
+    margin-left: 25px;
+    background-color: #FFFFFF;
+    border: 0;
+    padding: 6px 10px;
+    cursor: pointer;
+    transition: all .5s ease;
+}
+.blok3-section .container .content-text .btn:hover{
+    border: 1px solid #5e5d5d;
+}
+.blok3-section .container .content{
+    width: 600px;
+    margin-top: 10px;
+    display: grid;
+    gap: 45px;
+    grid-template-columns: repeat(2, 1fr);
+}
+.blok3-section .container .content .wrap{
+    display: flex;
+    gap: 15px;
+    align-items: center;
+}
+.blok3-section .container .content .wrap img{
+    width: 74px;
+    height: 74px;
+}
+.blok3-section .container .content .wrap h3{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    color: #1B1A1A;
+    text-transform: capitalize;
+}
+.blok3-section .container .content .wrap h4{
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 14px;
+    color: #645C55;
+    text-transform: capitalize;
+}
+/* footer-section */
+.footer-section{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.footer-wrap{
+    width: 1200px;
+    display: flex;
+    justify-content: center;
+    background-color: #CEC4BC;
+    padding: 50px;
+}
+.footer-section .container{
+    width: 100%;
+    display: flex;
+    gap: 500px;
+    justify-content: center;
+}
+.footer-section .container .content h2{
+    font-size: 22px;
+    font-weight: 400;
+    line-height: 32px;
+    margin-bottom: 10px;
+}
+.footer-section .container .content p{
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
+    color: #645C55;
+}
+.footer-section .container .content-icon{
+    position: relative;
+}
+.footer-section .container .content-icon .icon{
+    display: flex;
+    gap: 15px;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
+.footer-section .container .content-icon .icon i{
+    font-size: 18px;
+    cursor: pointer;
 }
